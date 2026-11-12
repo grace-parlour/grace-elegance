@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grace Elegance · Beauty &amp; Nail Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff6f8;--surface:#fff;--ink:#3a1f2b;--muted:#7a5a68;--pink:#b3225f;--on-pink:#fff;--gold:#a97a12;--line:#f0d3de;--wa:#128c4a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1d1117;--surface:#2a1a22;--ink:#fbeef3;--muted:#c9a8b6;--pink:#f06ca3;--on-pink:#1d1117;--gold:#e6bf5c;--line:#43283457;--wa:#2bb673;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1d1117;--surface:#2a1a22;--ink:#fbeef3;--muted:#c9a8b6;--pink:#f06ca3;--on-pink:#1d1117;--gold:#e6bf5c;--line:#432834;--wa:#2bb673;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 "DM Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;margin:0;line-height:1.1}
+.wrap{max-width:900px;margin:0 auto;padding:0 18px}
+section{padding:44px 0}
+h2{font-size:clamp(32px,7vw,46px);color:var(--pink);margin-bottom:8px}
+.lead{color:var(--muted);margin:0 0 24px;max-width:58ch}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero{text-align:center;padding:56px 0 48px;background:radial-gradient(ellipse at 50% 0,color-mix(in srgb,var(--pink) 18%,transparent),transparent 70%)}
+.hero .top{font-size:clamp(56px,16vw,104px);font-weight:700;color:var(--gold);letter-spacing:.02em}
+.hero .script{font-size:clamp(40px,12vw,76px);font-style:italic;color:var(--pink);margin-top:-6px}
+.hero .sub{letter-spacing:.28em;text-transform:uppercase;font-weight:700;font-size:13px;margin:18px 0 6px}
+.rule{width:120px;height:2px;margin:12px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.tag{color:var(--muted);font-weight:500;margin:0 0 26px}
+.btn{display:inline-block;background:var(--pink);color:var(--on-pink);padding:14px 26px;border-radius:999px;font:700 16px "DM Sans",sans-serif;text-decoration:none;border:0;cursor:pointer}
+.btn.alt{background:transparent;color:var(--ink);border:2px solid var(--gold)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:12px}
+.card h3{font-size:28px;color:var(--pink)}
+.card ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.card li::before{content:"♥";color:var(--pink);margin-right:10px;font-size:12px}
+.card .btn{margin-top:auto;text-align:center;padding:11px 16px;font-size:15px}
+.badge{display:flex;gap:14px;align-items:center;justify-content:center;border:2px solid var(--gold);border-radius:18px;padding:18px;text-align:center;margin-top:20px}
+.badge b{font-family:"Cormorant Garamond",serif;font-size:26px;color:var(--gold)}
+.two{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+form{display:grid;gap:12px}
+label{font-weight:500;font-size:15px;display:grid;gap:4px}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;width:100%}
+textarea{min-height:80px;resize:vertical}
+.links{display:grid;gap:10px;align-content:start}
+.links a,.links div{display:block;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:inherit;font-weight:500}
+.links small{display:block;color:var(--muted);font-weight:400}
+.note{font-size:14px;color:var(--muted);margin:0}
+footer{padding:28px 0 90px;text-align:center;color:var(--muted);font-size:14px}
+.fab{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));background:var(--wa);color:#fff;padding:13px 20px;border-radius:999px;font-weight:700;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.3);z-index:20}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <h1><span class="top">GRACE</span><br><span class="script">Elegance</span></h1>
+  <div class="sub">Beauty &amp; Nail Studio</div>
+  <div class="rule"></div>
+  <p class="tag">Enhancing beauty. Elevating confidence.</p>
+  <div class="btns"><a class="btn" href="#book">Book an appointment</a><a class="btn alt" href="#services">See services</a></div>
+</div></header>
+
+<section id="services"><div class="wrap">
+  <h2>Our services</h2>
+  <p class="lead">Hair, nails and beauty treatments, done with care. Message us for prices and to book your slot.</p>
+  <div class="cards" id="cards"></div>
+  <div class="badge"><b>100%</b><span>Quality and satisfaction guaranteed.<br>You deserve to feel beautiful.</span></div>
+</div></section>
+
+<section id="book"><div class="wrap">
+  <h2>Book your appointment</h2>
+  <p class="lead">Choose a service and a time that suits you. We’ll confirm by message.</p>
+  <div class="two">
+    <form id="f">
+      <label>Your name<input name="name" required autocomplete="name"></label>
+      <label>Service<select name="service" id="sel"></select></label>
+      <label>Preferred day and time<input name="when" placeholder="e.g. Saturday morning" required></label>
+      <label>Notes (style, colour, length)<textarea name="notes"></textarea></label>
+      <button class="btn" type="submit">Send booking by WhatsApp</button>
+      <p class="note">Nothing is sent until you tap send in WhatsApp.</p>
+    </form>
+    <div class="links" id="links"></div>
+  </div>
+</div></section>
+<footer><div class="wrap" id="foot"></div></footer>
+<a class="fab" id="fab" href="#book">Book now</a>
+
+<script>
+/* ===== EDIT THESE ===== */
+var CFG={name:"Grace Elegance",whatsapp:"254724772006",phone:"254724772006",facebook:"",address:"Rolex, Bypass",hours:"8:00am – 10:00pm"};
+/* whatsapp and phone: digits with country code, e.g. 2547XXXXXXXX */
+var SERVICES=[
+ ["Hair services",["Weaving","Knotless braids","Box braids","Twists &amp; twist outs","Micro twists","Hair retouch","Blow out","Hair dye"]],
+ ["Nail services",["Gel polish","Gum gel","Builder gel","Stick-ons","Tips","Manicure &amp; pedicure","Relaxing massage"]],
+ ["Beauty services",["Facial","Eyebrows"]]
+];
+/* ====================== */
+function txt(h){var d=document.createElement("div");d.innerHTML=h;return d.textContent}
+function wa(t){return CFG.whatsapp?"https://wa.me/"+CFG.whatsapp+"?text="+encodeURIComponent(t):"#book"}
+var cards=document.getElementById("cards"),sel=document.getElementById("sel");
+SERVICES.forEach(function(g){
+  var c=document.createElement("article");c.className="card";
+  var h=document.createElement("h3");h.textContent=g[0];c.appendChild(h);
+  var ul=document.createElement("ul");
+  g[1].forEach(function(s){var li=document.createElement("li");li.textContent=txt(s);ul.appendChild(li);
+    var o=document.createElement("option");o.textContent=txt(s);sel.appendChild(o)});
+  c.appendChild(ul);
+  var a=document.createElement("a");a.className="btn";a.textContent="Book "+g[0].split(" ")[0].toLowerCase();a.href=wa("Hi "+CFG.name+"! I’d like to book a "+g[0].toLowerCase()+" appointment.");a.target="_blank";a.rel="noopener";
+  c.appendChild(a);cards.appendChild(c);
+});
+var links=document.getElementById("links");
+function add(label,sub,href){var e=document.createElement(href?"a":"div");if(href){e.href=href;if(href.indexOf("http")==0){e.target="_blank";e.rel="noopener"}}
+  e.textContent=label;var s=document.createElement("small");s.textContent=sub;e.appendChild(s);links.appendChild(e)}
+if(CFG.whatsapp)add("WhatsApp","+"+CFG.whatsapp,wa("Hi "+CFG.name+"!"));
+if(CFG.phone)add("Call","+"+CFG.phone,"tel:+"+CFG.phone);
+if(CFG.facebook)add("Facebook",CFG.facebook,"https://facebook.com/"+CFG.facebook);
+if(CFG.address)add("Find us",CFG.address);
+if(CFG.hours)add("Opening hours",CFG.hours);
+if(!links.children.length)add("Contact details","Coming soon");
+document.getElementById("fab").href=CFG.whatsapp?wa("Hi "+CFG.name+"!"):"#book";
+if(CFG.whatsapp){document.getElementById("fab").target="_blank";document.getElementById("fab").textContent="Chat on WhatsApp"}
+document.getElementById("foot").textContent="© "+new Date().getFullYear()+" "+CFG.name+" Beauty & Nail Studio. Run by Grace Wangari.";
+document.getElementById("f").addEventListener("submit",function(e){
+  e.preventDefault();var f=e.target;
+  var m="Hi "+CFG.name+"! I’d like to book.\nService: "+f.service.value+"\nName: "+f.name.value+"\nPreferred time: "+f.when.value+"\nNotes: "+(f.notes.value||"none");
+  if(CFG.whatsapp)window.open(wa(m),"_blank");else alert("Booking by WhatsApp isn’t set up yet. Please check back soon.");
+});
+</script>
+</body>
+</html>
